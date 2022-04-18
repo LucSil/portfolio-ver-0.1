@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "60%": "#382933",
+        "30%": "#3b5249",
+        "10-a": "#519872",
+        "10-b": "#a4b494",
+      },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
