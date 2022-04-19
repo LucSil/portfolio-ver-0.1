@@ -13,7 +13,9 @@ body {
 img {
   @apply h-full w-full object-cover;
 }
-
+.navLink {
+  @apply mb-2;
+}
 .socialLinks {
   @apply text-10-b hover:animate-pulse text-4xl mb-2;
 }
