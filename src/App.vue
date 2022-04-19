@@ -34,9 +34,9 @@
   </nav>
 
   <router-view v-slot="{ Component }">
-    <transition name="route">
+    <Transition name="route" mode="out-in">
       <component :is="Component" />
-    </transition>
+    </Transition>
   </router-view>
   <!-- <router-view /> -->
 </template>
