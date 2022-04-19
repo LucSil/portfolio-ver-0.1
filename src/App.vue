@@ -26,6 +26,12 @@
         <router-link @click="close" class="navLink" to="/about"
           >ABOUT</router-link
         >
+        <router-link @click="close" class="navLink" to="/work"
+          >WORK</router-link
+        >
+        <router-link @click="close" class="navLink" to="/contact"
+          >GET IN TOUCH</router-link
+        >
       </ul>
     </transition>
     <transition name="modal">
