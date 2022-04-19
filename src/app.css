@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
 body {
   @apply text-lg bg-[#2c2129] cursor-default;
+}
+img {
+  @apply h-full w-full object-cover;
+}
+
+.socialLinks {
+  @apply text-10-b hover:animate-pulse text-4xl mb-2;
 }
