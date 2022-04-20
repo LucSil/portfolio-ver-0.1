@@ -37,7 +37,7 @@
           >WORK</router-link
         >
         <router-link @click="close" class="navLink" to="/contact"
-          >GET IN TOUCH</router-link
+          >CONTACT</router-link
         >
       </ul>
     </transition>
