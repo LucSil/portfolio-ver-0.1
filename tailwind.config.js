@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "60%": "#382933",
-        "30%": "#3b5249",
-        "10-a": "#519872",
-        "10-b": "#a4b494",
+        "60%": "#F3F4ED",
+        "30%": "#536162",
+        "10-a": "#424642",
+        "10-b": "#C06014",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

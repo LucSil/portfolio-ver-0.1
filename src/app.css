@@ -8,7 +8,7 @@ html {
   @apply scroll-smooth;
 }
 body {
-  @apply text-lg bg-[#2c2129] cursor-default;
+  @apply text-lg bg-60% cursor-default;
 }
 img {
   @apply h-full w-full object-cover;
