@@ -8,14 +8,16 @@
       >
         DSTNY
       </router-link>
-      <transition name="switch" mode="out-in" appear>
-        <button @click="toggle" v-if="!click" class="grid place-self-center">
-          <ion-icon class="text-10-b text-2xl" name="grid"></ion-icon>
-        </button>
-        <button @click="toggle" v-else class="grid place-self-center">
-          <ion-icon class="text-10-b text-2xl" name="grid-outline"></ion-icon>
-        </button>
-      </transition>
+      <div>
+        <transition name="switch" mode="out-in" appear>
+          <button @click="toggle" v-if="!click" class="grid place-self-center">
+            <ion-icon class="text-10-b text-2xl" name="grid"></ion-icon>
+          </button>
+          <button @click="toggle" v-else class="grid place-self-center">
+            <ion-icon class="text-10-b text-2xl" name="grid-outline"></ion-icon>
+          </button>
+        </transition>
+      </div>
     </div>
     <transition name="link">
       <ul
@@ -98,11 +100,11 @@ export default {
 .modal-enter-from,
 .link-enter-from {
   opacity: 0;
-  transform: translateX(250px);
+  transform: translateX(300px);
 }
 .modal-leave-to {
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translateX(-250px);
 }
 
 .link-enter-from {
