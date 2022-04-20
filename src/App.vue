@@ -1,6 +1,7 @@
 <template>
   <nav class="bg-60% relative">
     <div class="flex justify-between items-center py-4 px-6 relative z-20">
+      <!-- Logo onn navbar -->
       <router-link
         to="/"
         @click="close"
@@ -8,6 +9,8 @@
       >
         DSTNY
       </router-link>
+
+      <!-- Navbar toggle buttons -->
       <div>
         <transition name="switch" mode="out-in" appear>
           <button @click="toggle" v-if="!click" class="grid place-self-center">
@@ -19,6 +22,8 @@
         </transition>
       </div>
     </div>
+
+    <!-- Navbar Links -->
     <transition name="link">
       <ul
         v-if="menu"
@@ -36,17 +41,19 @@
         >
       </ul>
     </transition>
+
+    <!-- Modal and Modal Animation -->
     <transition name="modal">
       <div v-if="menu" class="h-screen bg-60% fixed inset-0 z-10"></div>
     </transition>
   </nav>
 
+  <!-- Animation for route components -->
   <router-view v-slot="{ Component }">
     <Transition name="route" mode="out-in">
       <component :is="Component" />
     </Transition>
   </router-view>
-  <!-- <router-view /> -->
 </template>
 
 <script>
