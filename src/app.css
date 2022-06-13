@@ -14,7 +14,7 @@ img {
   @apply h-full w-full object-cover;
 }
 .navLink {
-  @apply mb-6 active:before:content-['#'] before:opacity-20 before:mr-0.5 transition duration-200 ease-in-out;
+  @apply mb-6 active:before:content-['#'] before:opacity-50 before:mr-0.5 transition duration-200 ease-in-out;
 }
 .socialLinks {
   @apply text-10-b hover:animate-pulse text-4xl mb-2;
