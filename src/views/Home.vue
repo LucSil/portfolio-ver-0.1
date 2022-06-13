@@ -12,7 +12,7 @@
       </h1>
       <p class="text-center font-roboto text-30%">Front-end Developer</p>
     </div>
-    <Social />
+    <Social class="grid place-items-center mt-8" />
   </section>
 </template>
 
