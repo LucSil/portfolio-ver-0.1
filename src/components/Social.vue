@@ -1,5 +1,5 @@
 <template>
-  <ul id="social" class="grid place-items-center mt-8">
+  <ul id="social">
     <li>
       <a href="https://github.com/LucSil" target="blank">
         <ion-icon class="socialLinks" name="logo-github"></ion-icon>
