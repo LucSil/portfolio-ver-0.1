@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-60% relative">
-    <div class="flex justify-between items-center py-4 px-6 relative z-20">
+    <div class="flex justify-between items-center p-6 relative z-20">
       <!-- Logo onn navbar -->
       <router-link
         to="/"
@@ -107,11 +107,11 @@ export default {
 .modal-enter-from,
 .link-enter-from {
   opacity: 0;
-  transform: translateX(300px);
+  transform: translateX(500px);
 }
 .modal-leave-to {
   opacity: 0;
-  transform: translateX(-250px);
+  transform: translateX(-50px);
 }
 
 .link-enter-from {
