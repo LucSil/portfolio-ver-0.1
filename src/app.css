@@ -19,3 +19,6 @@ img {
 .socialLinks {
   @apply text-10-b hover:animate-pulse text-4xl mb-2;
 }
+.contact-social-links {
+  @apply text-10-a hover:text-10-b text-4xl transition duration-300 ease-linear;
+}
