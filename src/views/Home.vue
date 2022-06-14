@@ -7,22 +7,11 @@
       <img src="../assets/images/IMG-20191218-WA0009.jpg" alt="my picture" />
     </div>
     <div class="mt-12">
-      <!-- Hi -->
-      <transition name="left" appear>
-        <p class="text-10-b mb-2 font-roboto font-medium">Hi, my name is</p>
-      </transition>
-
-      <!-- Name -->
-      <transition name="center" appear>
-        <h1 class="text-center font-raleway text-10-a text-3xl mb-2">
-          DESTINY OBIOHA
-        </h1>
-      </transition>
-
-      <!-- Role -->
-      <transition name="right" appear>
-        <p class="text-right font-roboto text-30%">I'm a Front-end Developer</p>
-      </transition>
+      <p class="text-10-b mb-2 font-roboto font-medium">Hi, my name is</p>
+      <h1 class="text-center font-raleway text-10-a text-3xl mb-2">
+        DESTINY OBIOHA
+      </h1>
+      <p class="text-right font-roboto text-30%">I'm a Front-end Developer</p>
     </div>
     <Social class="grid place-items-center mt-8" />
   </section>
@@ -58,26 +47,5 @@ export default {
   100% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
-}
-
-.left-enter-from {
-  opacity: 0;
-  transform: translateX(-150px);
-}
-.left-enter-active {
-  transition: all 0.6s ease-in;
-}
-.center-enter-from {
-  opacity: 0;
-}
-.center-enter-active {
-  transition: all 1.2s ease-in;
-}
-.right-enter-from {
-  opacity: 0;
-  transform: translateX(200px);
-}
-.right-enter-active {
-  transition: all 1.5s ease-in;
 }
 </style>
