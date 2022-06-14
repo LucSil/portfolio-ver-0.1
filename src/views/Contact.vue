@@ -30,14 +30,14 @@
         >
       </button>
     </div>
-    <Social class="mt-8 flex justify-between items-center w-[50%]" />
+    <ContactSocial class="mt-8 flex justify-between items-center w-[50%]" />
   </section>
 </template>
 
 <script>
-import Social from "@/components/Social.vue";
+import ContactSocial from "@/components/ContactSocial.vue";
 export default {
   name: "Contact",
-  components: { Social },
+  components: { ContactSocial },
 };
 </script>
