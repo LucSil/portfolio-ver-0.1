@@ -31,13 +31,15 @@
       </button>
     </div>
     <ContactSocial class="mt-8 flex justify-between items-center w-[50%]" />
+    <Footer />
   </section>
 </template>
 
 <script>
 import ContactSocial from "@/components/ContactSocial.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Contact",
-  components: { ContactSocial },
+  components: { ContactSocial, Footer },
 };
 </script>
