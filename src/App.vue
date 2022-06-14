@@ -27,7 +27,7 @@
     <transition name="link">
       <ul
         v-if="menu"
-        class="absolute z-20 grid font-roboto font-light top-36 tracking-widest text-10-b text-3xl pl-6"
+        class="menu absolute z-20 grid font-roboto font-light top-36 tracking-widest text-10-b text-3xl pl-6"
       >
         <router-link @click="close" class="navLink" to="/">HOME</router-link>
         <router-link @click="close" class="navLink" to="/about"
@@ -89,6 +89,13 @@ export default {
 </script>
 
 <style>
+.menu .router-link-active::before {
+  content: "#";
+  opacity: 0.5;
+  margin-right: 0.125rem;
+  transition: all 200 ease-in-out;
+}
+
 .switch-enter-from {
   opacity: 0;
   transform: translateX(10px);
