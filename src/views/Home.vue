@@ -7,10 +7,11 @@
       <img src="../assets/images/IMG-20191218-WA0009.jpg" alt="my picture" />
     </div>
     <div class="mt-12">
+      <p class="text-10-b mb-2 font-roboto font-medium">Hi, my name is</p>
       <h1 class="text-center font-raleway text-10-a text-3xl mb-2">
         DESTINY OBIOHA
       </h1>
-      <p class="text-center font-roboto text-30%">Front-end Developer</p>
+      <p class="text-right font-roboto text-30%">I'm a Front-end Developer</p>
     </div>
     <Social class="grid place-items-center mt-8" />
   </section>
