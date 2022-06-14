@@ -111,7 +111,7 @@ export default {
 }
 .modal-leave-to {
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(-250px);
 }
 
 .link-enter-from {
@@ -123,7 +123,7 @@ export default {
   transform: translateX(-10px);
 }
 .link-enter-active {
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
 }
 .link-leave-active {
   transition: all 0.1s ease;
@@ -141,6 +141,6 @@ export default {
 }
 .route-leave-active,
 .route-enter-active {
-  transition: all 0.5s linear;
+  transition: all 0.7s linear;
 }
 </style>
