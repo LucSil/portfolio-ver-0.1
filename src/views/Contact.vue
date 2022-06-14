@@ -1,7 +1,7 @@
 <template>
-  <section class="grid place-items-center mt-32">
-    <div class="mx-4 mb-8">
-      <h1 class="font-raleway text-10-a text-4xl text-center mb-8">
+  <section class="grid place-items-center mt-24 relative">
+    <div class="mx-4 mb-12">
+      <h1 class="font-raleway text-10-a text-4xl text-center mb-6">
         Get In Touch
       </h1>
       <p
@@ -19,14 +19,14 @@
     </div>
     <div class="group">
       <button
-        class="border-2 border-10-b rounded-tl-xl rounded-br-xl px-6 py-2 group-hover:bg-10-b transition duration-200 ease-in-out"
+        class="border-2 border-10-b rounded-md px-6 py-3 group-hover:bg-10-b transition duration-300 ease-linear"
       >
         <a
-          class="font-roboto font-medium text-10-b tracking-wider group-hover:text-60%"
+          class="text-base font-roboto font-medium text-10-b tracking-wider group-hover:text-60%"
           href="mailto:chijiokeobioha351@gmail.com"
           rel="noopener noreferrer"
           target="blank"
-          >Say Hello!</a
+          >Say Hello</a
         >
       </button>
     </div>
