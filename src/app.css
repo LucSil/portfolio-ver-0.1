@@ -22,3 +22,12 @@ img {
 .contact-social-links {
   @apply text-10-a hover:text-10-b text-4xl transition duration-300 ease-linear;
 }
+.tech-grid {
+  @apply text-sm;
+}
+.tech {
+  @apply flex items-center tracking-wider mb-2 font-roboto;
+}
+.circle {
+  @apply mr-2 bg-10-b rounded-full w-1 h-1 p-1;
+}
