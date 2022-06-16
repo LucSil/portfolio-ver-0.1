@@ -11,7 +11,8 @@ module.exports = {
         "60%": "#F3F4ED",
         "30%": "#536162",
         "10-a": "#424642",
-        "10-b": "#C06014",
+        // "10-b": "#C06014",
+        "10-b": "rgb(249, 115, 22)",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
