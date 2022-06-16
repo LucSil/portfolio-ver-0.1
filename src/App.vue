@@ -1,4 +1,8 @@
 <template>
+  <!-- PreLoader -->
+  <PreLoader />
+
+  <!-- NavBar -->
   <nav class="bg-60% relative">
     <div class="flex justify-between items-center p-6 relative z-20">
       <!-- Logo onn navbar -->
@@ -57,8 +61,10 @@
 </template>
 
 <script>
+import PreLoader from "@/components/PreLoader.vue";
 export default {
   name: "App",
+  components: { PreLoader },
   data() {
     return {
       click: false,
