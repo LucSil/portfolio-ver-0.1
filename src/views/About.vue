@@ -11,6 +11,13 @@
       JavaScript.
     </p>
 
+    <!-- Interests -->
+    <p class="text-base font-raleway leading-8 mt-2">
+      I have a great deal of interest in learning about and creating serverless
+      fullstack applications - <em class="text-10-b">JAMstack apps</em>. Lots of
+      advantages going serveless!
+    </p>
+
     <!-- Technology used -->
     <div class="text-base mt-10 mb-4">
       <p class="mb-4 font-raleway">Here's the tech I make use of:</p>
