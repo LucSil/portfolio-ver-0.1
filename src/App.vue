@@ -7,7 +7,7 @@
     class="bg-60% sm:bg-neutral-200 relative sm:fixed sm:grid sm:place-content-center sm:inset-y-0 sm:w-[30vw]"
   >
     <div class="flex justify-between items-center p-6 sm:p-4 relative z-20">
-      <!-- Logo onn navbar -->
+      <!-- Logo on navbar -->
       <router-link
         to="/"
         @click="close"
@@ -155,15 +155,15 @@ export default {
 /* Route Transitions */
 .route-enter-from {
   opacity: 0;
-  transform: translateX(100px);
+  transform: translateX(300px);
 }
 
 .route-leave-to {
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translateX(300px);
 }
 .route-leave-active,
 .route-enter-active {
-  transition: all 0.7s linear;
+  transition: all 1s linear;
 }
 </style>
