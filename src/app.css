@@ -16,6 +16,12 @@ img {
 .navLink {
   @apply mb-6 active:before:content-['#'] before:opacity-50 before:mr-0.5 transition duration-200 ease-in-out;
 }
+.secMenu {
+  @apply mb-8 p-4;
+}
+.link {
+  @apply mb-2 text-lg opacity-70;
+}
 .socialLinks {
   @apply text-10-b hover:animate-pulse text-4xl mb-2;
 }
