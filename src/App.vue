@@ -3,19 +3,21 @@
   <PreLoader />
 
   <!-- NavBar -->
-  <nav class="bg-60% relative">
-    <div class="flex justify-between items-center p-6 relative z-20">
+  <nav
+    class="bg-60% sm:bg-neutral-200 relative sm:fixed sm:grid sm:place-content-center sm:inset-y-0 sm:w-[30vw]"
+  >
+    <div class="flex justify-between items-center p-6 sm:p-4 relative z-20">
       <!-- Logo onn navbar -->
       <router-link
         to="/"
         @click="close"
-        class="font-raleway text-10-b text-2xl tracking-widest hover:animate-pulse"
+        class="font-raleway text-10-b text-2xl sm:text-3xl sm:mb-4 tracking-widest hover:animate-pulse"
       >
         DSTNY
       </router-link>
 
       <!-- Navbar toggle buttons -->
-      <div>
+      <div class="sm:hidden">
         <transition name="switch" mode="out-in" appear>
           <button @click="toggle" v-if="!click" class="grid place-self-center">
             <ion-icon class="text-10-b text-2xl" name="grid"></ion-icon>
@@ -46,9 +48,15 @@
       </ul>
     </transition>
 
+    <!-- Desktop Menu -->
+    <SecondNav class="hidden sm:grid" />
+
     <!-- Modal and Modal Animation -->
     <transition name="modal">
-      <div v-if="menu" class="h-screen bg-60% fixed inset-0 z-10"></div>
+      <div
+        v-if="menu"
+        class="sm:hidden h-screen bg-60% fixed inset-0 z-10"
+      ></div>
     </transition>
   </nav>
 
@@ -62,9 +70,11 @@
 
 <script>
 import PreLoader from "@/components/PreLoader.vue";
+import SecondNav from "@/components/SecondNav.vue";
+
 export default {
   name: "App",
-  components: { PreLoader },
+  components: { PreLoader, SecondNav },
   data() {
     return {
       click: false,
