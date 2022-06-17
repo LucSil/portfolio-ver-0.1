@@ -1,19 +1,21 @@
 <template>
-  <section class="mt-24 grid place-items-center">
-    <div
-      id="imgDiv"
-      class="w-60 h-60 brightness-50 overflow-hidden border-[0.75rem] border-[rgba(200,200,200,0.1)]"
-    >
-      <img src="../assets/images/IMG-20191218-WA0009.jpg" alt="my picture" />
+  <section class="page mt-24 grid place-items-center">
+    <div class="main">
+      <div
+        id="imgDiv"
+        class="w-60 h-60 brightness-50 overflow-hidden border-[0.75rem] border-[rgba(200,200,200,0.1)]"
+      >
+        <img src="../assets/images/IMG-20191218-WA0009.jpg" alt="my picture" />
+      </div>
+      <div class="mt-12">
+        <p class="text-10-b mb-2 font-roboto font-medium">Hi, my name is</p>
+        <h1 class="text-center font-raleway text-10-a text-3xl mb-2">
+          DESTINY OBIOHA
+        </h1>
+        <p class="text-right font-roboto text-30%">I'm a Front-end Developer</p>
+      </div>
+      <Social class="grid place-items-center mt-8" />
     </div>
-    <div class="mt-12">
-      <p class="text-10-b mb-2 font-roboto font-medium">Hi, my name is</p>
-      <h1 class="text-center font-raleway text-10-a text-3xl mb-2">
-        DESTINY OBIOHA
-      </h1>
-      <p class="text-right font-roboto text-30%">I'm a Front-end Developer</p>
-    </div>
-    <Social class="grid place-items-center mt-8" />
   </section>
 </template>
 
@@ -26,6 +28,15 @@ export default {
 </script>
 
 <style>
+@media (min-width: 640px) {
+  .page {
+    display: grid;
+    grid-template-columns: 30vw auto;
+  }
+  .main {
+    grid-column-start: 2;
+  }
+}
 #imgDiv {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
