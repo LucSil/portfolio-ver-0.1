@@ -51,6 +51,16 @@
     <!-- Desktop Menu -->
     <SecondNav class="hidden sm:grid" />
 
+    <!-- Copywright -->
+    <em
+      class="copyright hidden opacity-60 sm:grid text-sm tracking-wider text-10-a leading-relaxed"
+    >
+      <span class="font-roboto">&copy; 2022 DSTNY</span>
+      <span class="font-roboto"
+        >Created with <strong class="text-10-b">Vue.js</strong></span
+      >
+    </em>
+
     <!-- Modal and Modal Animation -->
     <transition name="modal">
       <div
