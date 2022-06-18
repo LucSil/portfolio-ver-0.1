@@ -20,7 +20,7 @@ img {
   @apply mb-8 p-4;
 }
 .link {
-  @apply mb-2 text-lg opacity-70;
+  @apply mb-2 text-lg opacity-60 hover:opacity-100 transition duration-300 ease-linear;
 }
 .socialLinks {
   @apply text-10-b hover:animate-pulse text-4xl mb-2;
