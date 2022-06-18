@@ -4,7 +4,7 @@
   >
     <div class="main">
       <!-- Image One -->
-      <div class="divA bg-[#e7e7e7]">
+      <div class="divA bg-[#e7e7e7] sm:bg-white">
         <!-- Img -->
         <div class="divB">
           <img
@@ -68,7 +68,7 @@
       </div>
 
       <!-- Image Four -->
-      <div class="divA bg-[#e7e7e7]">
+      <div class="divA bg-[#e7e7e7] sm:bg-sky-100">
         <!-- Img -->
         <div class="divB">
           <img src="../assets/images/work/advice.png" />
