@@ -1,5 +1,5 @@
 <template>
-  <ul id="social">
+  <ul id="social" class="sm:flex sm:justify-between sm:mt-10">
     <li>
       <a href="https://github.com/LucSil" target="blank">
         <ion-icon class="socialLinks" name="logo-github"></ion-icon>
