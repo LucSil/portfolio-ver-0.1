@@ -1,6 +1,6 @@
 <template>
   <section
-    class="page h-screen mt-20 sm:mt-0 lg:mt-0 mx-6 sm:mx-10 lg:mx-12 text-10-a grid sm:place-items-center"
+    class="page h-screen mt-20 sm:mt-0 lg:mt-0 mx-6 sm:mx-10 lg:mx-20 text-10-a grid sm:place-items-center"
   >
     <div class="main">
       <!-- About Me -->
@@ -62,6 +62,11 @@ export default {
   }
   .main {
     grid-column-start: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .page {
+    grid-template-columns: 25vw auto;
   }
 }
 </style>
