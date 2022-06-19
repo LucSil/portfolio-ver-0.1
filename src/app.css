@@ -29,7 +29,7 @@ img {
   @apply text-10-a hover:text-10-b text-4xl transition duration-300 ease-linear;
 }
 .tech-grid {
-  @apply text-sm;
+  @apply text-sm lg:text-base;
 }
 .tech {
   @apply flex items-center tracking-wider mb-2 font-raleway;
