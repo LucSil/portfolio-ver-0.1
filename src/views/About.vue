@@ -1,8 +1,10 @@
 <template>
-  <section class="page mt-10 sm:mt-20 px-6 sm:px-10 text-10-a">
+  <section
+    class="page h-screen mt-20 sm:mt-0 lg:mt-0 mx-6 sm:mx-10 lg:mx-12 text-10-a grid sm:place-items-center"
+  >
     <div class="main">
       <!-- About Me -->
-      <p class="text-base leading-8 font-roboto sm:tracking-wide">
+      <p class="text-base lg:text-lg leading-8 font-roboto sm:tracking-wide">
         Hello! My name is Destiny and I enjoy creating websites. I initially
         began with HTML & CSS, creating little web components, and was scared of
         trying out JavaScript. Later on, I learnt the
@@ -13,7 +15,9 @@
       </p>
 
       <!-- Interests -->
-      <p class="text-base font-roboto leading-8 sm:tracking-wide mt-2">
+      <p
+        class="text-base lg:text-lg font-roboto leading-8 sm:tracking-wide mt-4"
+      >
         I have a great deal of interest in learning about and creating
         serverless fullstack applications -
         <em class="text-10-b font-raleway">JAMstack apps</em>. Lots of
@@ -21,7 +25,7 @@
       </p>
 
       <!-- Technology used -->
-      <div class="text-base mt-10 mb-4">
+      <div class="text-base lg:text-lg mt-10 mb-4">
         <p class="mb-4 font-raleway">Here's the tech I make use of:</p>
         <section class="grid grid-cols-2 text-30%">
           <!-- Grid Col 1 -->
