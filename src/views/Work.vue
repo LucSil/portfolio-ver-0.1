@@ -7,10 +7,7 @@
       <div class="divA bg-[#e7e7e7] sm:bg-white">
         <!-- Img -->
         <div class="divB">
-          <img
-            class="object-fill"
-            src="../assets/images/work/loopstudios.png"
-          />
+          <img class="imgWork" src="../assets/images/work/loopstudios.png" />
 
           <!-- Links to Repository and Live Demo -->
           <div class="link-div a">
@@ -31,7 +28,7 @@
       <div class="divA bg-[#293241]">
         <!-- Img -->
         <div class="divB">
-          <img src="../assets/images/work/room.png" />
+          <img class="imgWork" src="../assets/images/work/room.png" />
 
           <!-- Links to Repository and Live Demo -->
           <div class="link-div b">
@@ -51,7 +48,7 @@
       <div class="divA bg-[#000b0e]">
         <!-- Img -->
         <div class="divB">
-          <img src="../assets/images/work/sunnyside.png" />
+          <img class="imgWork" src="../assets/images/work/sunnyside.png" />
 
           <!-- Links to Repository and Live Demo -->
           <div class="link-div c">
@@ -71,7 +68,7 @@
       <div class="divA bg-[#e7e7e7] sm:bg-sky-100">
         <!-- Img -->
         <div class="divB">
-          <img src="../assets/images/work/advice.png" />
+          <img class="imgWork" src="../assets/images/work/advice.png" />
 
           <!-- Links to Repository and Live Demo -->
           <div class="link-div d">
