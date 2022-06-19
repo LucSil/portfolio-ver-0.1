@@ -1,5 +1,5 @@
 <template>
-  <section class="page grid place-items-center mt-24 relative sm:static">
+  <section class="page grid mt-24 sm:mt-0 sm:place-items-center sm:h-screen">
     <div class="main grid place-items-center sm:mt-10">
       <div class="px-4 sm:px-10 mb-12">
         <h1 class="font-raleway text-10-a text-4xl text-center mb-6">
@@ -34,7 +34,7 @@
         </button>
       </div>
       <ContactSocial class="mt-8 flex justify-between items-center w-[50%]" />
-      <Footer class="sm:hidden" />
+      <Footer />
     </div>
   </section>
 </template>
