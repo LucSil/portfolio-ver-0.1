@@ -1,19 +1,21 @@
 <template>
   <section class="page grid mt-24 sm:mt-0 sm:place-items-center sm:h-screen">
     <div class="main grid place-items-center sm:mt-10">
-      <div class="px-4 sm:px-10 mb-12">
-        <h1 class="font-raleway text-10-a text-4xl text-center mb-6">
+      <div class="px-4 sm:px-10 lg:px-20 mb-12">
+        <h1
+          class="font-raleway text-10-a text-4xl lg:text-5xl text-center mb-6"
+        >
           Get In Touch
         </h1>
         <p
-          class="text-center text-base font-roboto font-normal tracking-wider leading-6 text-30%"
+          class="text-center text-base lg:text-lg font-roboto font-normal tracking-wider leading-6 text-30%"
         >
           Hello, once again!<br />I'm currently seeking a new opportunity. If
           you'd love to hire me, leave me an inbox or a message on any of my
           social media accounts.
         </p>
         <p
-          class="mt-2 text-base text-center font-roboto font-normal tracking-wider leading-6 text-30%"
+          class="mt-2 text-base lg:text-lg text-center font-roboto font-normal tracking-wider leading-6 text-30%"
         >
           If you'd also want to have a brief chat, feel free to leave a message!
         </p>
@@ -22,10 +24,10 @@
       <!-- Button -->
       <div class="group">
         <button
-          class="border-2 border-10-b rounded-md px-6 py-3 group-hover:bg-10-b transition duration-300 ease-linear"
+          class="border-2 border-10-b rounded-md px-6 lg:px-8 py-3 lg:py-4 group-hover:bg-10-b transition duration-300 ease-linear"
         >
           <a
-            class="text-base font-roboto font-medium text-10-b tracking-wider group-hover:text-60%"
+            class="text-base lg:text-lg font-roboto font-medium text-10-b tracking-wider group-hover:text-60%"
             href="mailto:chijiokeobioha351@gmail.com"
             rel="noopener noreferrer"
             target="blank"
@@ -56,6 +58,11 @@ export default {
   }
   .main {
     grid-column-start: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .page {
+    grid-template-columns: 25vw auto;
   }
 }
 </style>
