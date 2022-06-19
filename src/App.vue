@@ -4,7 +4,7 @@
 
   <!-- NavBar -->
   <nav
-    class="bg-60% sm:bg-neutral-200 relative sm:fixed sm:grid sm:place-content-center sm:inset-y-0 sm:w-[30vw]"
+    class="bg-60% sm:bg-neutral-200 relative sm:fixed sm:grid sm:place-content-center sm:inset-y-0 sm:w-[30vw] lg:w-[25vw]"
   >
     <div class="flex justify-between items-center p-6 sm:p-4 relative z-20">
       <!-- Logo on navbar -->
@@ -53,7 +53,7 @@
 
     <!-- Copywright -->
     <em
-      class="copyright hidden opacity-60 sm:grid text-sm tracking-wider text-10-a leading-relaxed"
+      class="copyright hidden opacity-60 sm:grid text-sm tracking-wider text-10-a leading-relaxed lg:ml-4"
     >
       <span class="font-roboto">&copy; 2022 DSTNY</span>
       <span class="font-roboto"
