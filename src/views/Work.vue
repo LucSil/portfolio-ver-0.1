@@ -106,4 +106,9 @@ export default {
     grid-column-start: 2;
   }
 }
+@media (min-width: 1024px) {
+  .page {
+    grid-template-columns: 25vw auto;
+  }
+}
 </style>
