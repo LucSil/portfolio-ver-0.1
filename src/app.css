@@ -70,5 +70,5 @@ img {
   @apply mt-6 flex justify-between;
 }
 .imgWork {
-  @apply lg:rounded-full;
+  @apply lg:rounded-2xl;
 }
