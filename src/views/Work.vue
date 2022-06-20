@@ -1,6 +1,6 @@
 <template>
   <section
-    class="page place-items-center h-screen w-full flex flex-col overflow-auto"
+    class="page work place-items-center h-screen w-full flex flex-col overflow-auto"
   >
     <div class="main">
       <!-- Image One -->
@@ -107,5 +107,15 @@ export default {
   .page {
     grid-template-columns: 25vw auto;
   }
+}
+
+/* Hide scrollbar but keep functionality */
+.work {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.work::-webkit-scrollbar {
+  display: none;
 }
 </style>
