@@ -1,6 +1,6 @@
 <template>
-  <section class="page grid mt-24 sm:mt-0 sm:place-items-center sm:h-screen">
-    <div class="main grid place-items-center sm:mt-10">
+  <section class="page grid mt-24 sm:mt-0 sm:place-items-center h-screen">
+    <div class="main grid place-items-center sm:mt-10 h-[40vh] sm:h-auto">
       <div class="px-4 sm:px-10 lg:px-20 mb-12">
         <h1
           class="font-raleway text-10-a text-4xl lg:text-5xl text-center mb-6"
@@ -35,7 +35,9 @@
           >
         </button>
       </div>
-      <ContactSocial class="mt-8 flex justify-between items-center w-[50%]" />
+      <ContactSocial
+        class="mt-8 flex justify-between items-center w-[50%] md:w-[30%]"
+      />
       <Footer />
     </div>
   </section>
