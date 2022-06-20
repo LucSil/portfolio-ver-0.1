@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="page mt-24 lg:mt-0 grid lg:h-screen lg:mx-12 place-items-center"
-  >
+  <section class="page grid h-screen lg:mx-12 place-items-center">
     <div class="main lg:flex">
       <!-- Display Image -->
       <div
